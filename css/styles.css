@@ -1,1 +1,54 @@
-/* Ini css */
+/* Ini CSS */
+
+/* styles.css */
+
+/* Gaya untuk body */
+body {
+    background: blueviolet;
+    font-family: Arial, sans-serif;
+}
+
+/* Gaya untuk header */
+header {
+    text-align: center;
+}
+
+/* Gaya untuk main */
+main p {
+    text-align: center;
+}
+
+/* Gaya untuk section */
+section {
+    text-align: center;
+    margin: 10px
+}
+
+/* Gaya untuk textarea */
+textarea {
+    width: 350px;
+    height: 30px;
+    resize: none
+    padding: 5px;
+}
+
+/* Gaya spesifik untuk textarea id "calculation" */
+textarea#calculation {
+    height: 40px;
+}
+
+/* Gaya untuk button */
+button {
+    border-radius: 20px;
+}
+
+/* Gaya spesifik untuk button reset */
+button[onclick="resetForm()"] {
+    width: 60px;
+}
+
+.subject-info {
+    font-size: 24px;
+    font-style: italic;
+    font-family: math;
+}
